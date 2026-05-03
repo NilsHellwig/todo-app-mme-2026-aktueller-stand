@@ -1,0 +1,30 @@
+:root {
+    --darkest: black;
+    --dark: #444444;
+    --grey: #b5b5b5;
+    --pink: #ec4899;
+    --light: #f5f5f5;
+    --lighter: #f7f7f7;
+    --lightest: white;
+    --light-red: #ffdada;
+    --dark-red: #5b0000;
+    font-family: "Manrope", Arial, Arial, Helvetica, sans-serif;
+    background-color: var(--light);
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--grey);
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+header {
+    max-width: 800px;
+    margin: 12px auto;
+}
